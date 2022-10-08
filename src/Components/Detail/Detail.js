@@ -2,8 +2,11 @@ import React from "react";
 import BungaDetail from "../../gambar/rosevindetail.png";
 import gmapsnikah from "../../gambar/gmapsnikah.png";
 import pasangan from "../../gambar/pasangan.png";
+import { useParams } from "react-router-dom";
 
 const Detail = () => {
+  const { id } = useParams();
+  console.log(id);
   return (
     <div
       className="flex items-stretch bg-grey-lighter min-h-screen font-poppins"
@@ -17,7 +20,10 @@ const Detail = () => {
           <div>
             <img src={BungaDetail} className=" w-32 mx-auto" />
           </div>
-          <p className=" tracking-widest">We Invite You to Celebrate</p>
+          <p className=" tracking-widest">
+            We Invite {id !== undefined ? id + " & Partner" : "You"} to
+            Celebrate
+          </p>
           <h1 className="py-9 font-bold font-great text-5xl">Aji & Afifah</h1>
           <p className=" tracking-widest">Which is celebration on</p>
           <p className=" tracking-widest text-gray-500 md:text-5xl sm:text-2xl py-8">
@@ -30,7 +36,9 @@ const Detail = () => {
             Reception continue at 09:00, in the morning
           </p>
           <div className="flex justify-center md:py-3 sm:py-8">
-            <img src={gmapsnikah} className=" w-28 mr-6" />
+            <a href="https://maps.google.com/?q=Lorong+Karang+Anyar+No.1232%2C+RT.38%2C+Plaju+Darat%2C+Kec.+Plaju%2C+Kota+Palembang%2C+Sumatera+Selatan+30267&ftid=0x2e3b9d091fae893b:0xe2d6cb69e3a53700&entry=gps">
+              <img src={gmapsnikah} className=" w-28 mr-6" />
+            </a>
             <span className="w-1/2 flex items-center">
               <h1 className="text-justify py-auto leading-loose">
                 Jl. Tegal Binangun Lorong Karang Anyar No. 1232 RT. 33 RW. 7,

@@ -21,8 +21,8 @@ const Detailpasangan = () => {
             <span className=" tracking-widest md:text-7xl font-great sm:text-2xl">
               Bride & Groom
             </span>
-            <div className=" flex py-8">
-              <div className=" shadow-lg py-8  rounded-lg md:mx-2 text-center">
+            <div className=" md:flex sm:flex-none py-8">
+              <div className=" shadow-lg py-8  rounded-lg md:mx-6 sm:mx-1 text-center">
                 <img
                   src={aji}
                   className=" md:w-48 sm:w-20 rounded-full mx-auto"
@@ -30,21 +30,18 @@ const Detailpasangan = () => {
                 <h1 className=" md:text-3xl sm:text-sm font-poppins pt-3">
                   Aji Setiaji
                 </h1>
-                <div className="box-border text-center md:px-40 sm:px-1">
+                <div className="box-border text-center md:px-40 sm:px-8">
                   <p className=" text-gray-500 text-xs py-2">
                     Oldest son of Mr. Budi Darma Putra and Mrs. Marniati
                   </p>
                   <p className="text-xs">
                     He is a Telecommunication engineering diploma who loves
-                    technology and work.
-                  </p>
-                  <p className="text-xs">
-                    {" "}
-                    He now works as a programmer with a backend engineer focus
+                    technology and work.He now works as a programmer with a
+                    backend engineer focus
                   </p>
                 </div>
               </div>
-              <div className=" shadow-lg py-8  rounded-sm md:mx-6 text-center">
+              <div className=" shadow-lg py-8  rounded-sm md:mx-6 sm:mx-1 text-center">
                 <img
                   src={afif}
                   className="md:w-48 sm:w-20 rounded-full mx-auto"
@@ -52,17 +49,14 @@ const Detailpasangan = () => {
                 <h1 className=" md:text-3xl sm:text-sm font-poppins pt-3">
                   Nur Afifah Sholihah
                 </h1>
-                <div className="box-border text-center md:px-40 sm:px-1">
+                <div className="box-border text-center md:px-40 sm:px-8">
                   <p className=" text-gray-500 text-xs py-2">
                     Oldest son of Mr. Das'an and Mrs. Rusmini
                   </p>
                   <p className="text-xs">
                     She is a diploma in nutrition who loves health sciences and
-                    work.
-                  </p>
-                  <p className="text-xs">
-                    She now works as a nutritionist to provide health services
-                    to the community
+                    work. She now works as a nutritionist to provide health
+                    services to the community
                   </p>
                 </div>
               </div>
