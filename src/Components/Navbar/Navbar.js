@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
-            <a href="javascript:void(0)">
+            <a href="#">
               <h2 className="text-2xl font-bold">Aji & Afif</h2>
             </a>
             <div className="md:hidden">
@@ -57,16 +57,16 @@ const Navbar = () => {
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <li className="text-gray-600 hover:text-blue-600">
-                <a href="javascript:void(0)">Home</a>
+                <a href="#">Home</a>
               </li>
               <li className="text-gray-600 hover:text-blue-600">
-                <a href="javascript:void(0)">Blog</a>
+                <a href="#invite">Invitation</a>
               </li>
               <li className="text-gray-600 hover:text-blue-600">
-                <a href="javascript:void(0)">About US</a>
+                <a href="#pasangan">Pasangan</a>
               </li>
               <li className="text-gray-600 hover:text-blue-600">
-                <a href="javascript:void(0)">Contact US</a>
+                <a href="#formulir">Confirm</a>
               </li>
             </ul>
           </div>

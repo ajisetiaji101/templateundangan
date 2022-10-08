@@ -1,12 +1,19 @@
 import React from "react";
 import BungaDetail from "../../gambar/rosevindetail.png";
 import gmapsnikah from "../../gambar/gmapsnikah.png";
+import pasangan from "../../gambar/pasangan.png";
 
 const Detail = () => {
   return (
-    <div className="flex items-stretch bg-grey-lighter min-h-screen font-poppins">
+    <div
+      className="flex items-stretch bg-grey-lighter min-h-screen font-poppins"
+      id="invite"
+    >
       <div className="flex justify-center items-center w-full">
-        <div className=" text-center">
+        <div className="flex-1">
+          <img src={pasangan} className="h-full" />
+        </div>
+        <div className=" text-center w-1/2">
           <div>
             <img src={BungaDetail} className=" w-32 mx-auto" />
           </div>
@@ -20,15 +27,22 @@ const Detail = () => {
             Akad starting at 08:00, in the morning
           </p>
           <p className=" text-red-400">
-            Reception continue at 18:00, in the afternoon
+            Reception continue at 09:00, in the morning
           </p>
-          <div className="flex">
-            <img src={gmapsnikah} className=" w-28 mr-2" />
-            <h1 className="">
-              Jl. Tegal Binangun Lorong Karang Anyar No. 1232 RT. 33 RW. 7,
-              Plaju Darat, Palembang, Sumatra Selatan, 30267
-            </h1>
+          <div className="flex justify-center py-3">
+            <img src={gmapsnikah} className=" w-28 mr-6" />
+            <span className="w-1/2 flex items-center">
+              <h1 className="text-justify py-auto leading-loose">
+                Jl. Tegal Binangun Lorong Karang Anyar No. 1232 RT. 33 RW. 7,
+                Plaju Darat, Palembang, Sumatra Selatan, 30267
+              </h1>
+            </span>
           </div>
+          <p className=" text-gray-400">Together with our families,</p>
+          <p className=" text-gray-400">
+            {" "}
+            Request the honor of your presence of our marriage
+          </p>
         </div>
       </div>
     </div>

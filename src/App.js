@@ -1,4 +1,5 @@
-import { Jumbotron, Navbar } from "./Components";
+import { Detailpasangan, Jumbotron, Navbar } from "./Components";
+import Attending from "./Components/Attending/Attending";
 import Detail from "./Components/Detail/Detail";
 import Hitungmundur from "./Components/Hitungmundur/Hitungmundur";
 
@@ -8,6 +9,8 @@ function App() {
       <Navbar />
       <Jumbotron />
       <Detail />
+      <Detailpasangan />
+      <Attending />
     </div>
   );
 }
