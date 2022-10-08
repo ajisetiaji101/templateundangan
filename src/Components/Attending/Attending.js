@@ -8,8 +8,10 @@ const Attending = () => {
     >
       <div className="flex justify-center items-center w-full">
         <div className="text-center">
-          <h1 className=" text-7xl font-great py-6">Are You Attending ?</h1>
-          <div className=" p-20 shadow-lg">
+          <h1 className=" md:text-7xl sm:text-xl font-great py-6">
+            Are You Attending ?
+          </h1>
+          <div className=" p-20 shadow-lg mx-8">
             <input
               placeholder="NAME"
               className="border py-2 px-1 w-full rounded-lg my-2"

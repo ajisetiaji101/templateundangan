@@ -8,14 +8,18 @@ const Jumbotron = () => {
       <div className="flex justify-center items-center w-full">
         <div className=" text-center">
           <div>
-            <img src={Bungavine} className=" w-32 mx-auto" />
+            <img src={Bungavine} className="md:w-32 sm:w-20 mx-auto" />
           </div>
-          <span className=" tracking-widest">THE WEDDING OF</span>
-          <h1 className="py-9 font-bold font-great text-9xl">Aji & Afifah</h1>
-          <h1 className="tracking-widest">
+          <span className=" tracking-widest sm:text-xs md:text-base">
+            THE WEDDING OF
+          </span>
+          <h1 className="py-9 font-bold font-great md:text-9xl sm:text-6xl">
+            Aji & Afifah
+          </h1>
+          <h1 className="tracking-widest md:text-base sm:text-xs">
             THE GREATEST MOMENT IN HISTORY OF OUR LIFE BEGIN IN:
           </h1>
-          <Hitungmundur />
+          {/* <Hitungmundur /> */}
         </div>
       </div>
     </div>
