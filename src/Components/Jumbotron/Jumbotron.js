@@ -15,7 +15,7 @@ const Jumbotron = () => {
           <h1 className="tracking-widest">
             THE GREATEST MOMENT IN HISTORY OF OUR LIFE BEGIN IN:
           </h1>
-          {/* <Hitungmundur /> */}
+          <Hitungmundur />
         </div>
       </div>
     </div>
