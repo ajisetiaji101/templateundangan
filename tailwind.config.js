@@ -33,6 +33,7 @@ module.exports = {
         poppins: ["Poppins", "sans-serif"],
         belinda: ["BELINDA", "cursive"],
         great: ["Great Vibes", "cursive"],
+        josep: ["Josefin Sans", "sans-serif"],
       },
     },
   },

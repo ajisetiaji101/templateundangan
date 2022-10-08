@@ -44,7 +44,7 @@ function Hitungmundur() {
   return (
     <div className="row font-poppins">
       <div className="col-sm-6">
-        <div className="btn-group my-3 flex justify-around py-10 text-xl">
+        <div className="btn-group my-3 flex justify-around py-10 text-xs">
           {expiryTime !== false ? (
             <>
               <div className="">
